@@ -1,1 +1,6 @@
-theme: jekyll-theme-cayman
+remote_theme: fongandrew/hydeout
+
+plugins:
+  - jekyll-feed # original
+  - jekyll-remote-theme　# added
+  - github-pages # added
