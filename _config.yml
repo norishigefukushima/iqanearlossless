@@ -1,4 +1,4 @@
-remote_theme: fongandrew/hydeout
+remote_theme: supun-io/jekyll-theme-leaf
 
 plugins:
   - jekyll-feed # original
