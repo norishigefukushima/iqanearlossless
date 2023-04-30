@@ -4,6 +4,8 @@ Subjective assessment of JND for IQA of near-lossless compression (JPEG, WebP, H
 * [Web](https://norishigefukushima.github.io/iqanearlossless/)
 * [direct download link](./MIDD.zip)
 
+Meikoudai is an abbreviation of Nagoya Institute of Technology in Japanese.
+
 # Specification
 * Number of images: 10
 * Resolution: 512x512 (grayscale)
