@@ -22,7 +22,7 @@ Meikoudai is an abbreviation of Nagoya Institute of Technology in Japanese.
 	* HEIF512x512: 45, 40, 35, 30, 25
 	* WebP(off)1024x1024: 55, 50, 45, 40, 35
 * Number of subjects: 30 per distortion image
-* Total number of judgement: 10x2x4x5x30=12,000
+* Total number of judgements: 10x2x4x5x30=12,000
 * Condition: controlled laboratory environment
 * Display: EIZO CS 270 (27inch  2560x1440 / IPS)
 * Viewing distance: 0.5m
