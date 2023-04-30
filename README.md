@@ -24,7 +24,6 @@ Subjective assessment of JND for IQA of near-lossless compression (JPEG, WebP, H
 * Condition: controlled laboratory environment
 * Display: EIZO CS 270 (27inch  2560x1440 / IPS)
 * Viewing distance: 0.5m
-* 
 
 # Protocol
 * Showing side-by-side original and distorted image at random from 200 distortion images.
@@ -55,14 +54,14 @@ compression_image/kodim(image number)\_(quality rate)\_(compression metrix).(fil
 HEIF images are decoded and then lossress compressed by OptiPNG for usability.
 JPEG and WebP are own format.
 
-## identification ratios data
+## identification\_ratios\_data
 The identification ratios between the original and compressed images are listed.
 The unit of identification ratios values are %.
 
 * data.xlsx: 512x512
 * data200.xlsx: 1024x1024
 
-## Data_per_participants
+## data\_per\_participants
 The data for each of the 30 participants is listed individually.
 The images that participants judged to be the same are marked as "1", and those judged to be different are marked as "0".
 
