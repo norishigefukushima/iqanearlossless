@@ -7,6 +7,23 @@ Subjective assessment of JND for IQA of near-lossless compression (JPEG, WebP, H
 
 Meikoudai is an abbreviation of Nagoya Institute of Technology in Japanese.
 
+# Paper
+Soichiro Honda, Yoshihiro Maeda, and Norishige Fukushima,
+"Dataset of Subjective Assessment for Visually Near-Lossless Image Coding based on Just Noticeable Difference,"
+in Proc. International Conference on Quality of Multimedia Experience (QoMEX), 2023.
+[[IEEE Xplore]](https://ieeexplore.ieee.org/document/10178524)
+[[pdf]](https://fukushima.web.nitech.ac.jp/paper/2023_qomex_honda.pdf)
+
+```
+@INPROCEEDINGS{honda2023dataset,
+  author={Honda, Soichiro and Maeda, Yoshihiro and Fukushima, Norishige},
+  booktitle={Proceedings of International Conference on Quality of Multimedia Experience (QoMEX)}, 
+  title={Dataset of Subjective Assessment for Visually Near-Lossless Image Coding based on Just Noticeable Difference}, 
+  year={2023},
+  pages={236-239},
+  doi={10.1109/QoMEX58391.2023.10178524}}
+```
+
 # Specification
 * Number of images: 10
 * Resolution: 512x512 (grayscale)
@@ -36,9 +53,6 @@ Meikoudai is an abbreviation of Nagoya Institute of Technology in Japanese.
 * Subjects have up to 12 second for a judgement.
 * The judgement is a binary decision: same or not.
 * Experiment time: 2 hours per a subject for 400 images with 3 breaking terms.
-
-# Paper
-Near Lossless Image Quality Assessment based on Just Noticeable Difference of Image Quality Index (submitted.)
 
 # Explanation of directory structure
 ## source image
