@@ -30,15 +30,19 @@ in Proc. International Conference on Quality of Multimedia Experience (QoMEX), 2
 * Number of dpi types: 2 (512x512(1x1), 1024x1024(2x2))
 * Coding types: 4 (JPEG, WebP without DF (off), WebP with DF (on), HEIF)
 	* DF: deblocking filter
-* Number of distortions (QPs): 5 for each distortion and dpi
-	* JPEG512x512: 70, 60, 50, 35, 20
-	* JPEG1024x1024: 90, 80, 70, 60, 50
-	* WebP(on)512x512: 70, 60, 50, 35, 20
-	* WebP(on)1024x1024: 90, 80, 70, 60, 50
-	* WebP(off)512x512: 70, 60, 50, 35, 20
-	* WebP(off)1024x1024: 90, 80, 70, 60, 50
-	* HEIF512x512: 45, 40, 35, 30, 25
-	* HEIF1024x1024: 55, 50, 45, 40, 35
+* Number of distortions (QPs): 5 for each distortion and size
+  
+|Codec    |Size     |QPs                |
+|---------|:-------:|-------------------|  
+|JPEG     |  512x512| 70, 60, 50, 35, 20|
+|JPEG     |1024x1024| 90, 80, 70, 60, 50|
+|WebP(on) |  512x512| 70, 60, 50, 35, 20|
+|WebP(on) |1024x1024| 90, 80, 70, 60, 50|
+|WebP(off)|  512x512| 70, 60, 50, 35, 20|
+|WebP(off)|1024x1024| 90, 80, 70, 60, 50|
+|HEIF     |  512x512| 45, 40, 35, 30, 25|
+|HEIF     |1024x1024| 55, 50, 45, 40, 35|
+
 * Number of subjects: 30 per distortion image
 * Total number of judgments: 10x2x4x5x30=12,000
 * Condition: controlled laboratory environment
