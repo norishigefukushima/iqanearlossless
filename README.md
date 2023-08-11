@@ -28,9 +28,9 @@ in Proc. International Conference on Quality of Multimedia Experience (QoMEX), 2
 * Number of images: 10
 * Resolution: 512x512 (grayscale)
 * Number of dpi types: 2 (512x512(1x1), 1024x1024(2x2))
-* Coding types: 4 (JPEG, WebP without DF (off), WebP with DF (off), HEIF)
+* Coding types: 4 (JPEG, WebP without DF (off), WebP with DF (on), HEIF)
 	* DF: deblocking filter
-* Number of distiortions (QPs): 5 for each distortion and dpi
+* Number of distortions (QPs): 5 for each distortion and dpi
 	* JPEG512x512: 70, 60, 50, 35, 20
 	* JPEG1024x1024: 90, 80, 70, 60, 50
 	* WebP(on)512x512: 70, 60, 50, 35, 20
@@ -40,19 +40,19 @@ in Proc. International Conference on Quality of Multimedia Experience (QoMEX), 2
 	* HEIF512x512: 45, 40, 35, 30, 25
 	* WebP(off)1024x1024: 55, 50, 45, 40, 35
 * Number of subjects: 30 per distortion image
-* Total number of judgements: 10x2x4x5x30=12,000
+* Total number of judgments: 10x2x4x5x30=12,000
 * Condition: controlled laboratory environment
 * Display: EIZO CS 270 (27inch  2560x1440 / IPS)
 * Viewing distance: 0.5m
 
 # Protocol
-* Showing side-by-side original and distorted image at random from 200 distortion images.
-	* no dependency for images, distorton types, distortion levels.
-	* naive test without acceleration: bi-selection, adjestment, and etc.
+* Showing side-by-side original and distorted images at random from 200 distortion images.
+	* no dependency on images, distortion types, or distortion levels.
+	* naive test without acceleration: bi-selection, adjustment, etc.
 	* dependency for dpi: 512x512 image test and then 1024 x 1024 image test.
-* Subjects have up to 12 second for a judgement.
-* The judgement is a binary decision: same or not.
-* Experiment time: 2 hours per a subject for 400 images with 3 breaking terms.
+* Subjects have up to 12 seconds for a judgment.
+* The judgment is a binary decision: same or not.
+* Experiment time: 2 hours per subject for 400 images with 3 breaking terms.
 
 # Explanation of directory structure
 ## source image
@@ -60,7 +60,7 @@ The 10 source images are contained in the following directory.
 ```
 source_image/kodim(image number).png
 ```
-Source images are lossress compressed by OptiPNG.
+Source images are losslessly compressed by OptiPNG.
 
 ## compression image
 The distorted images are contained in the following directory.
@@ -68,8 +68,8 @@ The distorted images are contained in the following directory.
 compression_image/kodim(image number)\_(quality rate)\_(compression metrix).(filename extention)
 ```
 
-HEIF images are decoded and then lossress compressed by OptiPNG for usability.
-JPEG and WebP are own format.
+HEIF images are decoded and then lossless compressed by OptiPNG for usability.
+JPEG and WebP are their own formats.
 
 ## identification\_ratios\_data
 The identification ratios between the original and compressed images are listed.
