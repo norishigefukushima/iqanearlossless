@@ -38,7 +38,7 @@ in Proc. International Conference on Quality of Multimedia Experience (QoMEX), 2
 	* WebP(off)512x512: 70, 60, 50, 35, 20
 	* WebP(off)1024x1024: 90, 80, 70, 60, 50
 	* HEIF512x512: 45, 40, 35, 30, 25
-	* WebP(off)1024x1024: 55, 50, 45, 40, 35
+	* HEIF1024x1024: 55, 50, 45, 40, 35
 * Number of subjects: 30 per distortion image
 * Total number of judgments: 10x2x4x5x30=12,000
 * Condition: controlled laboratory environment
