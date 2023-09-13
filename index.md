@@ -1,7 +1,6 @@
 # MIDD: Meikoudai Image Distortion Dataset
 Subjective assessment of JND for IQA of near-lossless compression (JPEG, WebP, HIEF)
 
-* [Web](https://norishigefukushima.github.io/iqanearlossless/)
 * [Github](https://github.com/norishigefukushima/iqanearlossless)
 * [direct download link](./MIDD.zip)
 
@@ -25,7 +24,7 @@ in Proc. International Conference on Quality of Multimedia Experience (QoMEX), 2
 ```
 
 # Specification
-* Number of images: 10
+* Number of images: 10 (high or low frequency images)
 * Resolution: 512x512 (grayscale)
 * Number of dpi types: 2 (512x512(1x1), 1024x1024(2x2))
 * Coding types: 4 (JPEG, WebP without DF (off), WebP with DF (on), HEIF)
@@ -45,9 +44,15 @@ in Proc. International Conference on Quality of Multimedia Experience (QoMEX), 2
 
 * Number of subjects: 30 per distortion image
 * Total number of judgments: 10x2x4x5x30=12,000
+* Output type: binary decision or percentage
 * Condition: controlled laboratory environment
 * Display: EIZO CS 270 (27inch  2560x1440 / IPS)
 * Viewing distance: 0.5m
+
+The followings are example plots between IQA scores and identification rate, which judge distorted images are the same or not same.  
+0% means all subjects judge distorted and source images are the same.  
+
+![example plot](plot.webp)
 
 # Protocol
 * Showing side-by-side original and distorted images at random from 200 distortion images.
