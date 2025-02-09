@@ -7,8 +7,8 @@ Subjective assessment dataset of visually lossless ratio by absolute binary deci
 
 **Link**
 * [Github](https://github.com/norishigefukushima/iqanearlossless)
-* [Direct download link (MID-GAR 30.2 MB)](./MIDD-GAR.zip)
-* [Direct download link (MID-CAP 117.2 MB)](./MIDD-CAP.zip)
+* [Direct download link (MID-GAR 30.2 MB)](https://drive.google.com/file/d/1aNx2gfoyxqbeaXopFT-bZnX_z071HNi3/view?usp=sharing)
+* [Direct download link (MID-CAP 117.2 MB)](https://drive.google.com/file/d/1vLhyBulGK4W4H81FVBYt2ddyN008THhS/view?usp=sharing)
 
 Meikoudai is an abbreviation of Nagoya Institute of Technology in Japanese.
 
