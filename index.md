@@ -167,7 +167,7 @@ distortion_image_248/kodak(image_number1-24)_(patch_number1-2)_(qp20-90).png
 distortion_image_124/kodak(image_number1-24)_(patch_number1-4)_(qp20-90).png
 ```
 
-JPEG encoded images are decoded and then lossless compressed by OptiPNG for usability.
+JPEG-encoded images are decoded and then lossless compressed by OptiPNG for usability.
 
 ## data_vlrate
 The visually lossless ratio values for each data are stored in CSV format.
@@ -180,13 +180,13 @@ for image_number=1:24
  for patch_number=1:(1 or 2 or 4)
   for QP = 20:90:10
 ```
-If QP reaches 90, the next patch number to start from is QP20 (not 496), and if the patch number reaches MAX, the next image number to start from is.
+If QP reaches 90, the next patch\_numer index to start from is QP20, and if the patch number reaches MAX, the next image\_number to start from is.
 
 For example, `result_496.csv` are 
 ```
 96.667  (kodak1_20.png)
 90      (kodak1_30.png)
-700     (kodak1_40.png)
+70      (kodak1_40.png)
 ...
 ```
 
